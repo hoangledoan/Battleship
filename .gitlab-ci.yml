@@ -1,0 +1,40 @@
+stages:
+  - build
+  - docs
+
+build:
+  image: "gitlab.lrz.de:5005/tueisec-labs/cpp_orga/cpp_orga-project-build-runner:v2022.9"
+  stage: build
+  script:
+    - mkdir -p build/client
+    - mkdir -p build/server
+    - cd build/client
+    - qmake ../../battleship/battleship.pro
+    - make
+#    - cd ../server
+#    - qmake ../../server/server.pro
+#    - make
+
+  except:
+    variables:
+      - $CI_COMMIT_MESSAGE =~ /<Template Commit>/i
+
+  artifacts:
+    paths:
+      - build/*
+
+docs:
+  image: "gitlab.lrz.de:5005/tueisec-labs/cpp_orga/cpp_orga-project-build-runner:v2022.9"
+  stage: docs
+  script:
+    - mkdir -p docs
+    - cd docs
+    - doxygen Doxyfile
+
+  except:
+    variables:
+      - $CI_COMMIT_MESSAGE =~ /<Template Commit>/i
+
+  artifacts:
+    paths:
+      - docs/*

@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Img_file/uss_iowa.jpg</file>
+        <file>Img_file/grey.jpg</file>
+        <file>Img_file/uboot.jpg</file>
+        <file>Img_file/app.ico</file>
+        <file>Img_file/ijn_yamato.jpg</file>
+        <file>Img_file/elmo-burning.gif</file>
+        <file>Img_file/explosion.gif</file>
+        <file>Img_file/missed.gif</file>
+        <file>sound_track.mp3</file>
+    </qresource>
+</RCC>

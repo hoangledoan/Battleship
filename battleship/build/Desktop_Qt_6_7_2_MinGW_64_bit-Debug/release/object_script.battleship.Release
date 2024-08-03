@@ -1,0 +1,13 @@
+release/main.o
+release/state.o
+release/kabumm.o
+release/mainwindow.o
+release/kinds.o
+release/message.o
+release/network.o
+release/game.o
+release/qrc_Img_file.o
+release/moc_kabumm.o
+release/moc_mainwindow.o
+release/moc_network.o
+release/moc_game.o

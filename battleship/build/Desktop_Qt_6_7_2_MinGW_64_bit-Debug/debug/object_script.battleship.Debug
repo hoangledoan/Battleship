@@ -1,0 +1,13 @@
+debug/main.o
+debug/state.o
+debug/kabumm.o
+debug/mainwindow.o
+debug/kinds.o
+debug/message.o
+debug/network.o
+debug/game.o
+debug/qrc_Img_file.o
+debug/moc_kabumm.o
+debug/moc_mainwindow.o
+debug/moc_network.o
+debug/moc_game.o
