@@ -4,7 +4,7 @@ This is a Battleship game project developed by me and my friend. The game is imp
 
 ## Demo
 
-![Example](https://github.com/hoangledoan/Battleship/raw/main/battleship/ui/GUI/Img_file/battleship.gif)
+![Example](https://github.com/hoangledoan/Battleship/raw/main/battleship/ui/GUI/Img_file/battleship2.gif)
 
 ## Project Structure
 
